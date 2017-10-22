@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.yazokuluuygulamaprototip.VerileriEkle">
+
+
+    <EditText
+        android:id="@+id/uni_adi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="üniversite adı"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fakulteAdi"
+        android:hint="fakülte adı"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/uni_adi"
+        android:layout_alignStart="@+id/uni_adi" />
+    <EditText
+        android:id="@+id/bolum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="bölüm"
+
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/fakulteAdi"
+        android:layout_alignStart="@+id/dersKodu" />
+
+    <EditText
+        android:id="@+id/dersKodu"
+        android:layout_width="wrap_content"
+        android:hint="ders kodu"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/bolum"
+        android:layout_alignStart="@+id/fakulteAdi" />
+
+    <EditText
+        android:id="@+id/dersAdi"
+        android:hint="ders adı"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/dersKodu"
+        android:layout_alignStart="@+id/dersKodu" />
+
+    <EditText
+        android:id="@+id/kredi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="kredi"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/dersAdi"
+        android:layout_alignStart="@+id/dersAdi" />
+
+    <EditText
+        android:id="@+id/akts"
+        android:layout_width="wrap_content"
+        android:hint="AKTS"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kredi"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/kredi" />
+
+    <Button
+        android:id="@+id/kaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:layout_below="@+id/akts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+</RelativeLayout>

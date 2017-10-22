@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/res1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.yazokuluuygulamaprototip.SehirIpuclari"
+    tools:showIn="@layout/app_bar_sehir_ipuclari">
+
+
+    <TextView
+        android:id="@+id/baslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="24sp"
+
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/viewr"
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/baslik"
+        android:layout_marginBottom="10dp"
+        android:background="#21dbe9"></View>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/viewr"
+        android:layout_marginTop="104dp"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+android:layout_weight="0.4"
+            android:background="@drawable/edit_text_tasarim"
+            android:padding="3dp"
+            android:text="Nereleri Gezebilirim?"
+            android:textColor="#fff" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.4"
+            android:background="@drawable/edit_text_tasarim"
+            android:padding="3dp"
+            android:text="En ucuz kitap nerede?"
+            android:textColor="#ffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/lin"
+        android:layout_marginTop="104dp"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:background="@drawable/edit_text_tasarim"
+            android:padding="3dp"
+            android:text="Nerede Ne Yenir?"
+            android:textColor="#fff" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.4"
+            android:background="@drawable/edit_text_tasarim"
+            android:padding="3dp"
+            android:text="Nerede Ne Var?"
+            android:textColor="#ffff" />
+    </LinearLayout>
+</RelativeLayout>

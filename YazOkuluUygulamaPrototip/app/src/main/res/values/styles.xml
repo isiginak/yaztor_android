@@ -1,0 +1,810 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <array name="ozel_uni">
+
+        <item>
+            İSTANBUL ŞEHİR ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL ŞİŞLİ MESLEK
+        </item>
+        <item>
+            İSTANBUL TİCARET ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL 29 MAYIS ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTİNYE ÜNİVERSİTESİ
+        </item>
+        <item>
+            İZMİR EKONOMİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            KADİR HAS ÜNİVERSİTESİ
+        </item>
+        <item>
+            KAFKAS ÜNİVERSİTESİ
+        </item>
+        <item>
+            KOÇ ÜNİVERSİTESİ
+        </item>
+        <item>
+            MALTEPE ÜNİVERSİTESİ
+        </item>
+        <item>
+            MEF ÜNİVERSİTESİ
+        </item>
+        <item>
+            NİŞANTAŞI ÜNİVERSİTESİ
+        </item>
+        <item>
+            OKAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            SABANCI ÜNİVERSİTESİ
+        </item>
+        <item>
+            SANKO ÜNİVERSİTESİ
+        </item>
+        <item>
+            ŞİFA ÜNİVERSİTESİ
+        </item>
+        <item>
+            TED ÜNİVERSİTESİ
+        </item>
+        <item>
+            TÜRK-ALMAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            TÜRKİYE ULUSLARARASI İSLAM, BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            UFUK ÜNİVERSİTESİ
+        </item>
+        <item>
+            ULUSLARARASI ANTALYA
+        </item>
+        <item>
+            YAŞAR ÜNİVERSİTESİ
+        </item>
+        <item>
+            YEDİTEPE ÜNİVERSİTESİ
+        </item>
+        <item>
+            YENİ YÜZYIL ÜNİVERSİTESİ
+        </item>
+        <item>
+            YÜKSEK İHTİSAS ÜNİVERSİTESİ
+        </item>
+    </array>
+
+    <array name="sehir_adlari">
+        <item>Adana</item>
+        <item>Adıyaman</item>
+        <item>Afyon</item>
+        <item>Ağrı</item>
+        <item>Aksaray</item>
+        <item>Amasya</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Ardahan</item>
+        <item>Artvin</item>
+        <item>Aydın</item>
+        <item>Balıkesir</item>
+        <item>Bartın</item>
+        <item>Batman</item>
+        <item>Bayburt</item>
+        <item>Bilecik</item>
+        <item>Bingöl</item>
+        <item>Bitlis</item>
+        <item>Bolu</item>
+
+        <item>Burdur</item>
+        <item>Bursa</item>
+        <item>Çanakkale</item>
+        <item>Çankırı</item>
+        <item>Çorum</item>
+        <item>Denizli</item>
+        <item>Diyarbakır</item>
+        <item>Düzce</item>
+        <item>Edirne</item>
+        <item>Elazığ</item>
+        <item>Erzincan</item>
+        <item>Erzurum</item>
+        <item>Eskişehir</item>
+
+        <item>Gaziantep</item>
+        <item>Giresun</item>
+        <item>Gümüşhane</item>
+        <item>Hakkari</item>
+        <item>Hatay</item>
+        <item>Iğdır</item>
+        <item>Isparta</item>
+        <item>İçel</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+        <item>Kahramanmaraş</item>
+        <item>Karabük</item>
+        <item>Karaman</item>
+        <item>Kars</item>
+        <item>Kastamonu</item>
+        <item>Kayseri</item>
+
+        <item>Kırıkkale</item>
+        <item>Kırklareli</item>
+        <item>Kırşehir</item>
+        <item>Kilis</item>
+        <item>Kocaeli</item>
+        <item>Konya</item>
+        <item>Kütahya</item>
+        <item>Malatya</item>
+        <item>Manisa</item>
+        <item>Mardin</item>
+        <item>Muğla</item>
+        <item>Muş</item>
+        <item>Nevşehir</item>
+        <item>Niğde</item>
+        <item>Ordu</item>
+        <item>Osmaniye</item>
+        <item>Rize</item>
+        <item>Sakarya</item>
+        <item>Samsun</item>
+        <item>Siirt</item>
+        <item>Sinop</item>
+        <item>Sivas</item>
+        <item>Şanlıurfa</item>
+        <item>Şırnak</item>
+        <item>Tekirdağ</item>
+        <item>Tokat</item>
+        <item>Trabzon</item>
+        <item>Tunceli</item>
+        <item>Uşak</item>
+        <item>Van</item>
+        <item>Yalova</item>
+        <item>Yozgat</item>
+        <item>Zonguldak</item>
+
+
+    </array>
+
+    <array name="uniAdlari">
+        <item>Duyurusunu Görmek İstediğiniz Üniversiteyi Seçeniz</item>
+        <item>
+            ABANT İZZET BAYSAL ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ABDULLAH GÜL ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ADANA BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ADIYAMAN ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ADNAN MENDERES ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            AFYON KOCATEPE ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            AHİ EVRAN ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            AKDENİZ ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            AKSARAY ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ALANYA HAMDULLAH EMİN PAŞA ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            AMASYA ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ANADOLU ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ANKA TEKNOLOJİ ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ANKARA ÜNİVERSİTESİ
+        </item>
+        <item>ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ</item>
+
+        <item>
+            ANTALYA AKEV ÜNİVERSİTESİ
+        </item>
+        <item>ANTALYA BİLİM ÜNİVERSİTESİ</item>
+
+        <item>
+            ARDAHAN ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ARTVİN ÇORUH ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ATAŞEHİR ADIGÜZEL MESLEK YÜKSEKOKULU
+        </item>
+
+        <item>
+            ATATÜRK ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ATILIM ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            AVRASYA ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            AVRUPA MESLEK YÜKSEKOKULU
+        </item>
+
+        <item>
+            BAHÇEŞEHİR ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BALIKESİR ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BARTIN ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BAŞKENT ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BATMAN ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BAYBURT ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BEYKENT ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BEYKOZ ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BEZM-İ ALEM VAKIF ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ
+        </item>
+
+
+        <item>
+            BİNGÖL ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BİRUNİ ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BİTLİS EREN ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BOĞAZİÇİ ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BOZOK ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BURSA TEKNİK ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            BÜLENT ECEVİT ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            CELAL BAYAR ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            CUMHURİYET ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ÇAĞ ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ÇANAKKALE ON SEKİZ MART ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            ÇANKAYA ÜNİVERSİTESİ
+        </item>
+        <item>
+            ÇANKIRI KARATEKİN ÜNİVERSİTESİ
+        </item>
+        <item>
+            ÇUKUROVA ÜNİVERSİTESİ
+        </item>
+        <item>
+            DİCLE ÜNİVERSİTESİ
+        </item>
+        <item>
+            DOĞUŞ ÜNİVERSİTESİ
+        </item>
+        <item>
+            DOKUZ EYLÜL ÜNİVERSİTESİ
+        </item>
+        <item>
+            DUMLUPINAR ÜNİVERSİTESİ
+        </item>
+        <item>
+            DÜZCE ÜNİVERSİTESİ
+        </item>
+        <item>
+            EGE ÜNİVERSİTESİ
+        </item>
+        <item>
+            ERCİYES ÜNİVERSİTESİ
+        </item>
+        <item>
+            ERZİNCAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            ERZURUM TEKNİK ÜNİVERSİTESİ
+        </item>
+        <item>
+            ESKİŞEHİR OSMAN GAZİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            FARUK SARAÇ TASARIM MESLEK YÜKSEKOKULU
+        </item>
+        <item>
+            FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            FIRAT ÜNİVERSİTESİ
+        </item>
+        <item>
+            GALATASARAY ÜNİVERSİTESİ
+        </item>
+        <item>
+            GAZİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            GAZİANTEP ÜNİVERSİTESİ
+        </item>
+        <item>
+            GAZİ OSMAN PAŞA ÜNİVERSİTESİ
+        </item>
+        <item>
+            GEBZE TEKNİK ÜNİVERSİTESİ
+        </item>
+
+        <item>
+            GİRESUN ÜNİVERSİTESİ
+        </item>
+        <item>
+            GÜMÜŞHANE ÜNİVERSİTESİ
+        </item>
+        <item>
+            HACETTEPE ÜNİVERSİTESİ
+        </item>
+        <item>
+            HAKKARİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            HALİÇ ÜNİVERSİTESİ
+        </item>
+        <item>
+            HARRAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            HASAN KALYONCU ÜNİVERSİTESİ
+        </item>
+        <item>
+            HİTİT ÜNİVERSİTESİ
+        </item>
+        <item>
+            IĞDIR ÜNİVERSİTESİ
+        </item>
+        <item>
+            IŞIK ÜNİVERSİTESİ
+        </item>
+        <item>
+            İBN HALDUN ÜNİVERSİTESİ
+        </item>
+        <item>
+            İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ
+        </item>
+        <item>
+            İNÖNÜ ÜNİVERSİTESİ
+        </item>
+        <item>
+            İPEK ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSKENDERUN TEKNİK ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL AREL ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL AYDIN ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL BİLGİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL BİLİM ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL ESENYURT ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL GELİŞİM ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL KAVRAM MESLEK YÜKSEKOKULU
+        </item>
+        <item>
+            İSTANBUL KEMERBURGAZ
+        </item>
+        <item>
+            İSTANBUL KÜLTÜR ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL MEDENİYET ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL MEDİPOL ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL RUMELİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL ŞEHİR ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL ŞİŞLİ MESLEK
+        </item>
+        <item>
+            İSTANBUL TEKNİK ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL TİCARET ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTANBUL 29 MAYIS ÜNİVERSİTESİ
+        </item>
+        <item>
+            İSTİNYE ÜNİVERSİTESİ
+        </item>
+        <item>
+            İZMİR EKONOMİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            İZMİR ÜNİVERSİTESİ
+        </item>
+        <item>
+            İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ
+        </item>
+        <item>
+            KADİR HAS ÜNİVERSİTESİ
+        </item>
+        <item>
+            KAFKAS ÜNİVERSİTESİ
+        </item>
+        <item>
+            KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ
+        </item>
+        <item>
+            KANUNİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            KAPADOKYA MESLEK YÜKSEKOKULU
+        </item>
+        <item>
+            KARABÜK ÜNİVERSİTESİ
+        </item>
+        <item>
+            KARADENİZ TEKNİK ÜNİVERSİTESİ
+        </item>
+        <item>
+            KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ
+        </item>
+        <item>
+            KASTAMONU ÜNİVERSİTESİ
+        </item>
+        <item>
+            KIRIKKALE ÜNİVERSİTESİ
+        </item>
+        <item>
+            KIRKLARELİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            KİLİS 7 ARALIK ÜNİVERSİTESİ
+        </item>
+        <item>
+            KOCAELİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            KOÇ ÜNİVERSİTESİ
+        </item>
+        <item>
+            KONYA GIDA VE TARIM ÜNİVERSİTESİ
+        </item>
+        <item>
+            KTO KARATAY ÜNİVERSİTESİ
+        </item>
+        <item>
+            MALTEPE ÜNİVERSİTESİ
+        </item>
+        <item>
+            MARDİN ARTUKLU ÜNİVERSİTESİ
+        </item>
+        <item>
+            MARMARA ÜNİVERSİTESİ
+        </item>
+        <item>
+            MEF ÜNİVERSİTESİ
+        </item>
+        <item>
+            MEHMET AKİF ERSOY ÜNİVERSİTESİ
+        </item>
+        <item>
+            MELİKŞAH ÜNİVERSİTESİ
+        </item>
+        <item>
+            MERSİN ÜNİVERSİTESİ
+        </item>
+        <item>
+            MEVLANA ÜNİVERSİTESİ
+        </item>
+        <item>
+            MİMAR SİNAN GÜZEL SANATLAR ÜNİVERSİTESİ
+        </item>
+        <item>
+            MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            MURAT HÜDAVENDİGAR ÜNİVERSİTESİ
+        </item>
+        <item>
+            MUSTAFA KEMAL ÜNİVERSİTESİ
+        </item>
+        <item>
+            MUŞ ALPARSLAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            NAMIK KEMAL ÜNİVERSİTESİ
+        </item>
+        <item>
+            NECMETTİN ERBAKAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            NEVŞEHİR HACI BEKTAŞ VELİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            NİĞDE ÜNİVERSİTESİ
+        </item>
+        <item>
+            NİŞANTAŞI ÜNİVERSİTESİ
+        </item>
+        <item>
+            NUH NACİ YAZGAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            OKAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            ONDOKUZ MAYIS ÜNİVERSİTESİ
+        </item>
+        <item>
+            ORDU ÜNİVERSİTESİ
+        </item>
+        <item>
+            ORTA DOĞU TEKNİK ÜNİVERSİTESİ
+        </item>
+        <item>
+            OSMANİYE KORKUT ATA ÜNİVERSİTESİ
+        </item>
+        <item>
+            ÖZYEĞİN ÜNİVERSİTESİ
+        </item>
+        <item>
+            PAMUKKALE ÜNİVERSİTESİ
+        </item>
+        <item>
+            PİRİ REİS ÜNİVERSİTESİ
+        </item>
+        <item>
+            PLATO MESLEK YÜKSEKOKULU
+        </item>
+        <item>
+            RECEP TAYYİP ERDOĞAN
+        </item>
+        <item>
+            SABANCI ÜNİVERSİTESİ
+        </item>
+        <item>
+            SAĞLIK BİLİMLERİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            SAKARYA ÜNİVERSİTESİ
+        </item>
+        <item>
+            SANKO ÜNİVERSİTESİ
+        </item>
+        <item>
+            SELAHADDİN EYYUBİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            SELÇUK ÜNİVERSİTESİ
+        </item>
+        <item>
+            SİİRT ÜNİVERSİTESİ
+        </item>
+        <item>
+            SİNOP ÜNİVERSİTESİ
+        </item>
+        <item>
+            SÜLEYMAN DEMİREL ÜNİVERSİTESİ
+        </item>
+        <item>
+            SÜLEYMAN ŞAH ÜNİVERSİTESİ
+        </item>
+        <item>
+            ŞIRNAK ÜNİVERSİTESİ
+        </item>
+        <item>
+            ŞİFA ÜNİVERSİTESİ
+        </item>
+        <item>
+            TED ÜNİVERSİTESİ
+        </item>
+        <item>
+            TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            TOROS ÜNİVERSİTESİ
+        </item>
+        <item>
+            TRAKYA ÜNİVERSİTESİ
+        </item>
+        <item>
+            TUNCELİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            TURGUT ÖZAL ÜNİVERSİTESİ
+        </item>
+        <item>
+            TÜRK HAVA KURUMU ÜNİVERSİTESİ
+        </item>
+        <item>
+            TÜRK-ALMAN ÜNİVERSİTESİ
+        </item>
+        <item>
+            TÜRKİYE ULUSLARARASI İSLAM, BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ
+        </item>
+        <item>
+            UFUK ÜNİVERSİTESİ
+        </item>
+        <item>
+            ULUDAĞ ÜNİVERSİTESİ
+        </item>
+        <item>
+            ULUSLARARASI ANTALYA
+        </item>
+        <item>
+            UŞAK ÜNİVERSİTESİ
+        </item>
+        <item>
+            ÜSKÜDAR ÜNİVERSİTESİ
+        </item>
+        <item>
+            YALOVA ÜNİVERSİTESİ
+        </item>
+        <item>
+            YAŞAR ÜNİVERSİTESİ
+        </item>
+        <item>
+            YEDİTEPE ÜNİVERSİTESİ
+        </item>
+        <item>
+            YENİ YÜZYIL ÜNİVERSİTESİ
+        </item>
+        <item>
+            YILDIRIM BEYAZIT ÜNİVERSİTESİ
+        </item>
+        <item>
+            YILDIZ TEKNİK ÜNİVERSİTESİ
+        </item>
+        <item>
+            YÜKSEK İHTİSAS ÜNİVERSİTESİ
+        </item>
+        <item>
+            YÜZÜNCÜ YIL ÜNİVERSİTESİ
+        </item>
+        <item>
+            ZİRVE ÜNİVERSİTESİ
+        </item>
+
+
+    </array>
+</resources>

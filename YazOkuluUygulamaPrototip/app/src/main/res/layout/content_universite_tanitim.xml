@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/arka"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.yazokuluuygulamaprototip.UniversiteTanitim"
+    tools:showIn="@layout/app_bar_universite_tanitim">
+
+
+    <TextView
+        android:id="@+id/devlet_uni1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Özel Üniversiteler"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginTop="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="72dp"
+        android:entries="@array/ozel_uni"
+        android:layout_below="@+id/devlet_uni1"
+        android:layout_centerHorizontal="true"></Spinner>
+
+    <Button
+        android:id="@+id/ozel_tani"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Üniversiteyi Tanı"
+        android:textColor="#fff"
+        android:background="@drawable/edit_text_tasarim"
+        android:layout_below="@+id/spinner1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

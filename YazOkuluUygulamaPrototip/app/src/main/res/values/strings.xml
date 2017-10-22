@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Yaz Okulu Torbası</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="nav_item_activity_titles">
+        <item>Profil</item>
+        <item>Dersini Bul</item>
+        <item>Şehrini Seç</item>
+
+    </string-array>
+    <string name="title_activity_profil">Üniversite Duyuruları</string>
+
+
+    <string name="title_activity_m_anasayfa">Dersini Bul</string>
+    <string name="title_activity_m_dersleri_getir">Dersleri Getir</string>
+    <string name="title_activity_hakkimizda">Hakkımızda</string>
+    <string name="title_activity_yurtlar">Şehrini Seç</string>
+    <string name="title_activity_reklam_yurtlar">Yurt Reklamları</string>
+    <string name="title_activity_sehir_ipuclari">Şehir İpuçlari</string>
+    <string name="title_activity_ulasim">Ulaşım</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_universite_tanitim">Üniversite Tanıtımı</string>
+
+
+</resources>

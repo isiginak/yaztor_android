@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.yazokuluuygulamaprototip.mAnasayfa"
+    tools:showIn="@layout/app_bar_m_anasayfa">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffff0">
+        <AutoCompleteTextView
+            android:id="@+id/ders_adi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="129dp"
+            android:elevation="1dp"
+
+            android:ems="10"
+            android:hint="Ders Adı"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:singleLine="false" >
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <EditText
+            android:id="@+id/kredi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ders_adi"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="43dp"
+            android:ems="10"
+
+            android:hint="Ders Kredisi"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/akts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/kredi"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+
+            android:ems="10"
+            android:hint="AKTS"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/ara"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="61dp"
+            android:layout_below="@id/akts"
+            android:background="@drawable/edit_text_tasarim"
+            android:padding="10dp"
+            android:text="Dersini Bul"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+   <!--     <Button
+            android:id="@+id/ekle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="Button" />-->
+    </RelativeLayout>
+</ScrollView>

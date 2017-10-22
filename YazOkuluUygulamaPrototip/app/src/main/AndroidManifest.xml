@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.yazokuluuygulamaprototip">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KullaniciGirisi" />
+        <activity android:name=".VerileriEkle" />
+        <activity android:name=".Listele" />
+        <activity android:name=".KayitOl" />
+        <activity
+            android:name=".Profil"
+            android:label="@string/title_activity_profil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mAnasayfa"
+            android:label="@string/title_activity_m_anasayfa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mDersleriGetir"
+            android:label="@string/title_activity_m_dersleri_getir"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hakkimizda"
+            android:label="@string/title_activity_hakkimizda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Yurtlar"
+            android:label="@string/title_activity_yurtlar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReklamYurtlar"
+            android:label="@string/title_activity_reklam_yurtlar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SehirIpuclari"
+            android:label="@string/title_activity_sehir_ipuclari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ulasim"
+            android:label="@string/title_activity_ulasim"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UniversiteTanitim"
+            android:label="@string/title_activity_universite_tanitim"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
